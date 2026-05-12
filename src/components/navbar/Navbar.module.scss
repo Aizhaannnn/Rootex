@@ -1,0 +1,40 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+  height: 56px;
+  background: #fff;
+  border-bottom: 1px solid #eee;
+}
+
+.logo {
+  font-size: 16px;
+  font-weight: 600;
+  color: #111;
+}
+
+.links {
+  display: flex;
+  gap: 8px;
+
+  a {
+    padding: 6px 14px;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #555;
+    text-decoration: none;
+    transition: all 0.15s;
+
+    &:hover {
+      background: #f5f5f5;
+      color: #111;
+    }
+  }
+}
+
+.active {
+  background: #f0f0f0;
+  color: #111 !important;
+  font-weight: 500;
+}
